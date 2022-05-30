@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_margin="8dp"
+    android:background="#E1303F9F"
+    android:elevation="8dp"
+    android:textAlignment="center"
+    app:cardCornerRadius="8dp">
+
+
+    <TextView
+        android:id="@+id/tv_dbn"
+        android:layout_width="361dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="School Id"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_schoolName"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#3F51B5"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+</androidx.cardview.widget.CardView>
